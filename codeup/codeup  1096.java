@@ -15,8 +15,8 @@ public class Main {
 				input.add(br.readLine());
 			}
 			for (int i = 0; i < input.size(); i++) {
-				String[] jum = input.get(i).split(" ");
-				k[Integer.parseInt(jum[0])-1][Integer.parseInt(jum[1])-1] = 1 + "";
+				String[] m = input.get(i).split(" ");
+				k[Integer.parseInt(m[0])-1][Integer.parseInt(m[1])-1] = 1 + "";
 			}
 			for (int i = 0; i < k.length; i++) {
 				for (int j = 0; j < k[i].length; j++) {
